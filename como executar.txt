@@ -1,0 +1,14 @@
+Gerado: pacote pronto para o modo HTML direto + Flask API. Baixe aqui: Download — inventario_html_mode.zip
+Resumo direto, sem firula:
+
+
+Rode o backend: python app.py (vai criar inventario.db e uploads/).
+
+
+Sirva o frontend (recomendado) com python -m http.server 8000 e abra http://127.0.0.1:8000/index.html.
+
+
+Se abrir index.html direto (file://), pode funcionar, mas alguns navegadores bloqueiam requests — se der erro, use o http.server.
+
+
+Se quiser, testo aqui (gerar logs de requests ou ajustar mensagens de erro no frontend). Quer log do servidor mostrando o POST funcionando agora? 
